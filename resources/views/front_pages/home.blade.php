@@ -653,12 +653,12 @@
   </section>
 
   <section>
-      <div class="row">
+      <div class="row d-md-block d-lg-block d-none">
           <div class="col">
             {{--  <marquee behavior="scroll" direction="left">  --}}
                 {{--  @foreach($partners as $partner)  --}}
 
-                <img class="img-fluid" src="#" style=" color:white;" srcset="{{asset("/frontend/style/images/timeline.jpg")}}" alt="" />
+                <img class="img-fluid mx-auto d-block" src="#" style=" color:white;" srcset="{{asset("/frontend/style/images/timeline.jpg")}}" alt="" />
                 {{--  <img src="{{asset('/storage/partner/'.$partner->image)}}" style="height: 130px;object-fit: contain;" alt=""  width="120" height="80" alt="Natural"/>  --}}
               {{--  @endforeach  --}}
               {{--  </marquee>  --}}

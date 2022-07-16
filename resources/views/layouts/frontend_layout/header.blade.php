@@ -6,9 +6,9 @@
         <a href="{{url('/')}}"><img src="#" style="width:45px; padding-right: 16px; border-right:1px solid white; border-color: rgb(255, 255, 255); color:white;" srcset="{{asset("/frontend/style/images/footer-logo.png")}}" alt="" />
             GIC EDUCATION
            </a>
-         
+
     </div>
-      
+
       <div class="navbar-other ml-auto order-lg-3">
         <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
           <li class="nav-item">
@@ -27,7 +27,7 @@
               <!-- /.form-wrapper -->
             </div>
           </li>
-           <li class="nav-item"><button class="plain" data-toggle="offcanvas-info"><i class="jam jam-info"></i></button></li> 
+           <li class="nav-item"><button class="plain" data-toggle="offcanvas-info"><i class="jam jam-info"></i></button></li>
         </ul>
         <!-- /.navbar-nav -->
       </div>
@@ -97,7 +97,7 @@
             </ul>
             <!--/.dropdown-menu -->
           </li>
-          
+
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#!">About us</a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="{{url('/about-us')}}">About Us</a></li>
@@ -107,7 +107,7 @@
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#">What We Offer</a></li>
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#">Choose A Country</a>
                 <ul class="dropdown-menu">
-                   
+
                     <li><a class="dropdown-item" href="faq.html">UK</a></li>
                     <li><a class="dropdown-item" href="faq.html">USA</a></li>
                     <li><a class="dropdown-item" href="faq.html">Canada</a></li>
@@ -123,7 +123,7 @@
             </li>
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#">Achievement Gallery</a>
                 <ul class="dropdown-menu">
-                   
+
                     <li><a class="dropdown-item" href="{{url('/success-stories')}}">Client Stories</a></li>
                     <li><a class="dropdown-item" href="">Events</a></li>
                     <li><a class="dropdown-item" href="">Photos</a></li>
@@ -140,45 +140,62 @@
     <!-- /.container -->
 </nav>  --}}
 <!-- /.navbar -->
-<nav class="navbar white-wrapper inverse-text navbar-hover-opacity navbar-expand-lg">
+<nav class="navbar white-wrapper inverse-text navbar-hover-opacity navbar-expand-lg d-flex justify-content-between align-content-center">
     <div class="navbar-brand ml-50">
         <div class="row">
             <a href="{{url('/')}}"><img src="#" style="width:45px; padding-right: 16px; border-right:1px solid white; border-color: rgb(255, 255, 255); color:white;" srcset="{{asset("/frontend/style/images/footer-logo.png")}}" alt="" />
                 GIC EDUCATION
                </a>
-           
+
         </div>
     </div>
-    <div class="container flex-row justify-content-center">
-      
-        <div class="navbar-other ml-auto order-lg-3">
-          <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
+    <div class=" d-flex justify-content-between align-items-center">
+        <div class="navbar-other ml-auto order-lg-3 pr-2">
+          <ul class="navbar-nav d-flex align-items-center justify-content-center" data-sm-skip="true">
             <li class="nav-item">
-              <div class="navbar-hamburger d-lg-none d-xl-none ml-auto" ><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+                <div class="navbar-hamburger d-lg-none d-xl-none ml-auto" >
+                    {{--  <button class="hamburger animate plain" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>  --}}
+                </div>
+                <div class="offcanvas-header d-lg-none d-xl-none d-xm-none d-md-none">
+
+                    <button class="plain offcanvas-close offcanvas-nav-close " data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"><i class="jam jam-menu" style="color: white"></i></button>
+                    {{--  <button class="hamburger animate plain" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>  --}}
+                    {{--  <button class="plain offcanvas-close offcanvas-nav-close" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>  --}}
+
+                  </div>
             </li>
-            <li class="dropdown search-dropdown position-static nav-item mr-50">
+            <li class="dropdown search-dropdown position-static nav-item mr-50  d-md-block d-sm-none d-none">
                 <a href="#" role="button" class="collapse-toggle" data-toggle="collapse" data-target=".search-dropdown-menu" aria-haspopup="true" aria-expanded="false" style="color: rgb(255, 255, 255);">
                     <h3 class="d-none"> </h3>
-                    <i class="jam jam-search" style="padding-left: 16px; color: white; border-left:2px solid white; border-color: rgb(255, 255, 255);"></i></a>
+                    <i class="jam jam-search" style="padding-left: 16px; color: white; border-left:2px solid white; border-color: rgb(255, 255, 255);"></i>
+                </a>
+
               </li>
           </ul>
         </div>
-        <div class="navbar-collapse offcanvas-nav d-none">
+        <div class="navbar-collapse offcanvas-nav " id="navbarTogglerDemo03">
           <div class="offcanvas-header d-lg-none d-xl-none d-xm-none d-md-none">
-            {{--  <a href="#"><img src="#" style="width:45px;" srcset="{{asset('/frontend/style/images/footer-logo.png')}}" alt="" /></a>  --}}
-            <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
+
+            {{--  <button class="plain offcanvas-close offcanvas-nav-close " data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"><i class="jam jam-close"></i></button>  --}}
+            {{--  <button class="hamburger animate plain" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>  --}}
+            {{--  <button class="plain offcanvas-close offcanvas-nav-close" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>  --}}
 
           </div>
           <ul class="navbar-nav mx-auto">
-            {{--  <li class="nav-item"><a class=" nav-link" href="{{url('/')}}">Home</a></li>  --}}
-            {{--  <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/about-us')}}">About us</a></li>  --}}
+
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#!">About us</a>
                 <ul class="dropdown-menu">
-                    {{--  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Contact</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="contact.html">Contact I</a></li>
-                      </ul>
-                    </li>  --}}
+
                     <li><a class="dropdown-item" href="{{url('/about-us')}}">About GIC Education</a></li>
                     <li><a class="dropdown-item" href="{{url('/our-team')}}">Our Team</a></li>
                 </ul>
@@ -186,11 +203,7 @@
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href=" {{url('/what-we-offer')}}">What We Offer</a></li>
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#">Choose A Country</a>
                 <ul class="dropdown-menu">
-                    {{--  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Contact</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="contact.html">Contact I</a></li>
-                      </ul>
-                    </li>  --}}
+
                     <li><a class="dropdown-item" href="{{url('/country-uk')}}">UK</a></li>
                     <li><a class="dropdown-item" href="{{url('/study-in-usa')}}">USA</a></li>
                     <li><a class="dropdown-item" href="{{url('/study-in-canada')}}">Canada</a></li>
@@ -206,11 +219,7 @@
             </li>
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#">Achievement Gallery</a>
                 <ul class="dropdown-menu">
-                    {{--  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Contact</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item"><a class="dropdown-item" href="contact.html">Contact I</a></li>
-                      </ul>
-                    </li>  --}}
+
                     <li><a class="dropdown-item" href="{{url('/success-stories')}}">Client Stories</a></li>
                     <li><a class="dropdown-item" href="{{url('/testimonials')}}">Client Testimonials</a></li>
                     <li><a class="dropdown-item" href="{{url('/photo')}}">Photos</a></li>
@@ -218,59 +227,89 @@
 
                 </ul>
             </li>
-            {{--  <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/success-stories')}}">Study Abroad</a></li>  --}}
-            {{--  <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/success-stories')}}">Our services</a></li>
-            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/success-stories')}}">Gallery</a></li>  --}}
-            {{--  <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/success-stories')}}">Success stories</a></li>
-            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/testimonials')}}">Testimonials</a></li>
-            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/partners')}}">Partners</a></li>  --}}
+
             <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/contact-us')}}">Contact Us</a></li>
-            {{--  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Pages</a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Services</a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a class="dropdown-item" href="services.html">Services I</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="services2.html">Services II</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="services3.html">Services III</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="services4.html">Services IV</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="services5.html">Services V</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">About</a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a class="dropdown-item" href="about.html">About I</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="about2.html">About II</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="about3.html">About III</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="about4.html">About IV</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Shop</a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a class="dropdown-item" href="shop.html">Shop</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="shop2.html">Shop with Sidebar</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="shop3.html">Shop with Left Sidebar</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="shop-product.html">Product Page</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="shop-cart.html">Shopping Cart</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="shop-checkout.html">Checkout</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Contact</a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item"><a class="dropdown-item" href="contact.html">Contact I</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="contact2.html">Contact II</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="contact3.html">Contact III</a></li>
-                      <li class="nav-item"><a class="dropdown-item" href="contact4.html">Contact IV</a></li>
-                    </ul>
-                  </li>
-                  <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
-                  <li><a class="dropdown-item" href="page-loading.html">Page Loading</a></li>
-                  <li><a class="dropdown-item" href="scroll-animation.html">Scroll Animation</a></li>
-                </ul>
-            </li>  --}}
+
           </ul>
         </div>
     </div>
 </nav>
+
+{{--  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-brand ml-50">
+        <div class="row">
+            <a href="{{url('/')}}"><img src="#" style="width:45px; padding-right: 16px; border-right:1px solid white; border-color: rgb(255, 255, 255); color:white;" srcset="{{asset("/frontend/style/images/footer-logo.png")}}" alt="" />
+                GIC EDUCATION
+               </a>
+
+        </div>
+    </div>
+
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <div class=" d-flex justify-content-between align-items-center">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+
+            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#!">About us</a>
+                <ul class="dropdown-menu">
+
+                    <li><a class="dropdown-item" href="{{url('/about-us')}}">About GIC Education</a></li>
+                    <li><a class="dropdown-item" href="{{url('/our-team')}}">Our Team</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href=" {{url('/what-we-offer')}}">What We Offer</a></li>
+            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#">Choose A Country</a>
+                <ul class="dropdown-menu">
+
+                    <li><a class="dropdown-item" href="{{url('/country-uk')}}">UK</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-usa')}}">USA</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-canada')}}">Canada</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-new-zealand')}}">New-Zealand</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-sweden')}}">sweden</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-denmark')}}">Denmark</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-malaysia')}}">Malaysia</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-australia')}}">Australia</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-germany')}}">Germany</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-china')}}">China</a></li>
+
+                </ul>
+            </li>
+            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#">Achievement Gallery</a>
+                <ul class="dropdown-menu">
+
+                    <li><a class="dropdown-item" href="{{url('/success-stories')}}">Client Stories</a></li>
+                    <li><a class="dropdown-item" href="{{url('/testimonials')}}">Client Testimonials</a></li>
+                    <li><a class="dropdown-item" href="{{url('/photo')}}">Photos</a></li>
+                    <li><a class="dropdown-item" href="{{url('/video')}}">Videos</a></li>
+
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="{{url('/contact-us')}}">Contact Us</a></li>
+        </ul>
+
+
+
+        </div>
+    </div>
+</nav>  --}}
 
 
   <div class="offcanvas-info inverse-text">

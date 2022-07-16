@@ -468,7 +468,7 @@ canvas {
     text-align: center;
 }
 .navbar-nav .nav-link {
-    color: #303030;
+    color: #ffffff;
 }
 .navbar-nav .nav-link,
 .dropdown-item,
@@ -667,7 +667,7 @@ button.hamburger:after {
 .inverse-text:not(.fixed) button.hamburger:before,
 .inverse-text:not(.fixed) button.hamburger span,
 .inverse-text:not(.fixed) button.hamburger:after {
-    background: #000;
+    /* background: #000; */
 }
 button.hamburger.animate.active span {
     transform: scale(0);
@@ -727,7 +727,7 @@ button.hamburger.animate.active:after {
     right: 0.5rem;
 }
 .offcanvas-header {
-    padding: 3rem 0 2rem;
+    /* padding: 3rem 0 2rem; */
 }
 .offcanvas-header img {
     max-width: 100%;

@@ -3,7 +3,8 @@ body,
 .icon-blob h3,
 .icon-blob p,
 .icon-blob .step {
-    font-family: 'HK Grotesk', sans-serif !important;
+    /* font-family: 'HK Grotesk', sans-serif !important; */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h1,
 h2,

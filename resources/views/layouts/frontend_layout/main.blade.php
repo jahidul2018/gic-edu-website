@@ -24,7 +24,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 
   <style>
     #goToTop{
@@ -50,7 +50,7 @@
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=340136201106703&autoLogAppEvents=1" nonce="O1JY3apX"></script>
 
-  <div class="content">
+  <div class="content" style="overflow-x: hidden">
     @include('layouts.frontend_layout.header')
     <!-- /.navbar -->
 
