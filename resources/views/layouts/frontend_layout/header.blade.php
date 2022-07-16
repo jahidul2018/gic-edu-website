@@ -179,7 +179,7 @@
               </li>
           </ul>
         </div>
-        <div class="navbar-collapse offcanvas-nav " id="navbarTogglerDemo03">
+        <div class="navbar-collapse offcanvas-nav collapse" id="navbarTogglerDemo03">
           <div class="offcanvas-header d-lg-none d-xl-none d-xm-none d-md-none">
 
             {{--  <button class="plain offcanvas-close offcanvas-nav-close " data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"><i class="jam jam-close"></i></button>  --}}
@@ -193,7 +193,7 @@
           </div>
           <ul class="navbar-nav mx-auto">
 
-            <li class="nav-item dropdown"><a class=" nav-link dropdown-toggle" href="#!">About us</a>
+            <li class="nav-item dropdown dropdown-menu"><a class=" nav-link dropdown-toggle" href="#">About us</a>
                 <ul class="dropdown-menu">
 
                     <li><a class="dropdown-item" href="{{url('/about-us')}}">About GIC Education</a></li>
@@ -208,7 +208,7 @@
                     <li><a class="dropdown-item" href="{{url('/study-in-usa')}}">USA</a></li>
                     <li><a class="dropdown-item" href="{{url('/study-in-canada')}}">Canada</a></li>
                     <li><a class="dropdown-item" href="{{url('/study-in-new-zealand')}}">New-Zealand</a></li>
-                    <li><a class="dropdown-item" href="{{url('/study-in-sweden')}}">sweden</a></li>
+                    <li><a class="dropdown-item" href="{{url('/study-in-sweden')}}">Sweden</a></li>
                     <li><a class="dropdown-item" href="{{url('/study-in-denmark')}}">Denmark</a></li>
                     <li><a class="dropdown-item" href="{{url('/study-in-malaysia')}}">Malaysia</a></li>
                     <li><a class="dropdown-item" href="{{url('/study-in-australia')}}">Australia</a></li>

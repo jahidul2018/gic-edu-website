@@ -158,13 +158,13 @@
         <div class="row">
             <div class="col-md-4 col-sm-12 text-center">
                 <ul class="social social-mute social-s ml-auto ">
-                    <li><a href="#"><i class="jam jam-facebook"></i></a></li>
-                    <li><a href="#"><i class="jam jam-instagram"></i></a></li>
-                    <li><a href="#"><i class="jam jam-youtube"></i></a></li>
+                    <li><a href="https://www.facebook.com/gicedultd/"><i class="jam jam-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/gicedultd/"><i class="jam jam-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/c/wearegicYT/videos"><i class="jam jam-youtube"></i></a></li>
                   </ul>
             </div>
             <div class="col-md-8 col-sm-12 text-center">
-                <p class="mb-0 mr-auto">© 2017 gicedultd. All rights reserved.</p>
+                <p class="mb-0 mr-auto">© 2022 gicedultd. All rights reserved.</p>
             </div>
 
         </div>

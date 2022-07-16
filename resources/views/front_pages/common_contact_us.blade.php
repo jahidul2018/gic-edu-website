@@ -1,6 +1,6 @@
 
 <div class="wrapper gray-wrapper">
-  <div class="container inner">
+  <div class="container inner p-2">
     <div class="row align-items-start">
       <div class="col-lg-6">
         <div>
@@ -14,7 +14,7 @@
       <!--/column -->
       <div class="space80 d-lg-none"></div>
       <div class="space80 d-lg-none"></div>
-      <div class="col-lg-6 pl-60 pl-md-15">
+      <div class="col-lg-6 pl-md-15">
         <h2 class="section-title">Contact Us</h2>
         <p class="lead larger">Have any questions? Reach out to us from our contact form and we will get back to you shortly.</p>
         <div class="space30"></div>

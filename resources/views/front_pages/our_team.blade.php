@@ -2,7 +2,7 @@
 
 @section('frontpage_content')
 
-    <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{asset('/frontend/style/images/Counselling.jpg')}}">
+    <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text d-md-block d-none d-lg-block" data-image-src="{{asset('/frontend/style/images/Counselling.jpg')}}">
         <div class="container inner pt-200 pb-200 text-center">
         {{--  <h1 class="section-title text-uppercase">Hello! We Are GIC Education</h1>  --}}
         <h2 class="display-1 mb-0">Our Team</h2>
@@ -13,7 +13,7 @@
 
 
     <div class="wrapper white-wrapper">
-        <div class="container inner">
+        <div class="container inner p-2">
           
           <div class="row">
             <div class="col-lg-8 offset-lg-2">
@@ -33,7 +33,7 @@
     </div>
 
     <div class="wrapper white-wrapper">
-        <div class="container inner">
+        <div class="container inner p-2">
           
           <div class="row">
             <div class="col-lg-8 offset-lg-2">
@@ -56,7 +56,7 @@
     </div>
 
     <div class="wrapper white-wrapper">
-        <div class="container inner">
+        <div class="container inner p-2">
           
           <div class="row">
             <div class="col-lg-8 offset-lg-2">
@@ -80,7 +80,7 @@
     </div>
 
     <div class="wrapper white-wrapper">
-        <div class="container inner">
+        <div class="container inner p-2">
           
           <div class="row">
             <div class="col-lg-8 offset-lg-2">

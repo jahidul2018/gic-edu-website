@@ -7,7 +7,7 @@
         {{--  <h1 class="section-title text-uppercase">A country internationally recognized for high quality education</h1>  --}}
         <h2 class="display-1 mb-0">China </h2>
         <div class="space10"></div>
-        <a href="https://tinyurl.com/china22ed" class="btn btn-info btn-strong-hover mb-0" >   <h6 class=" mb-0">click here to start your education in China</h6></a>
+        <a href="https://tinyurl.com/china22ed" class="btn btn-info btn-strong-hover mb-0" >   <h6 class=" mb-0">Apply for student visa</h6></a>
         {{--  <a href="#" class="btn btn-white btn-strong-hover mb-0">Contact Us</a>  --}}
         </div>
         <!-- /.container -->
@@ -15,7 +15,7 @@
 
 
     <div class="wrapper white-wrapper">
-        <div class="container inner">
+        <div class="container inner p-2">
         
           <div class="row">
             <div class="col-lg-8 offset-lg-2">

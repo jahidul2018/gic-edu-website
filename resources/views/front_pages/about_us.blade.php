@@ -1,7 +1,7 @@
 @extends('layouts.frontend_layout.main')
 
 @section('frontpage_content')
-    <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{asset('/frontend/style/images/art/bg1.jpg')}}">
+    <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text d-md-block d-none d-lg-block " data-image-src="{{asset('/frontend/style/images/art/bg1.jpg')}}">
         <div class="container inner pt-200 pb-200 text-center">
         {{--  <h1 class="section-title text-uppercase">Hello! We Are GIC Education</h1>  --}}
         <h2 class="display-1 mb-0">About GIC Education</h2>
@@ -11,7 +11,7 @@
 
     <!-- /.wrapper -->
     <div class="container-fluid  wrapper light-wrapper">
-        <div class="container-margin inner">
+        <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2 text-center">
             <div>
@@ -31,20 +31,21 @@
             </div>
             <!--/column -->
             <div class="space30 d-none d-md-block d-lg-none"></div>
-            <div class="col-lg-6 pr-60 pr-md-15">
+            <div class="col-lg-6 pr-md-15">
             <h2 class="section-title">How do we make a difference</h2>
-            <p>We are a professional consulting firm, dedicated to providing the best solutions to students
+            <p class="display-4">We are a professional consulting firm, dedicated to providing the best solutions to students
                 seeking higher study abroad. We strive to create opportunities for students because we
-                believe everyone should have access to quality higher education.</p>
-            <p>With many of our streams directly linking to the permanent residence route, we help you not only get your student visa application sorted, but also ensure better career, as opposed to just your studies.</p>
+                believe everyone should have access to quality higher education.
+            </p>
+            <p class="display-4">With many of our streams directly linking to the permanent residence route, we help you not only get your student visa application sorted, but also ensure better career, as opposed to just your studies.</p>
 
-            <p>We have helped many before. Let us help you too.</p>
+            <p class="display-4"> We have helped many before. Let us help you too.</p>
             <div>
                 <h4>Why choose us:</h4>
-                <p><i class="icofont-clip"></i> The only consultancy firm to provide you counseling through Career Specialists.</p>
-                <p><i class="icofont-clip"></i> Choose from 20,000+ courses from over 1,500+ universities worldwide</p>
-                <p><i class="icofont-clip"></i> We guide you through different application and visa process.</p>
-                <p><i class="icofont-clip"></i> We do ensure to provide you a hassle-free journey</p>
+                <p class="display-4"><i class="icofont-clip"></i> The only consultancy firm to provide you counseling through Career Specialists.</p>
+                <p class="display-4"><i class="icofont-clip"></i> Choose from 20,000+ courses from over 1,500+ universities worldwide</p>
+                <p class="display-4"><i class="icofont-clip"></i> We guide you through different application and visa process.</p>
+                <p class="display-4"><i class="icofont-clip"></i> We do ensure to provide you a hassle-free journey</p>
             </div>
             <div class="space20"></div>
 
@@ -93,8 +94,8 @@
     <!-- /.wrapper -->
 
     <div class="wrapper light-wrapper">
-        <div class="container inner">
-            <div class="row align-items-center">
+        <div class="container inner p-2">
+            <div class="row ">
                 <div class="col-lg-6 order-lg-2">
                 <div>
                     <figure><img src="{{asset('/frontend/style/images/art/about9.png')}}" alt="" /></figure>
@@ -114,7 +115,7 @@
                 <!--/column -->
                 <div class="space20 d-md-none"></div>
                 <div class="space50 d-none d-md-block d-lg-none"></div>
-                <div class="col-lg-6 pr-60 pr-md-15">
+                <div class="col-lg-6 pr-md-15">
                 {{-- basic-slider owl-carousel --}}
                 <div class=" gap-small text-center" data-margin="30">
                     <div class="item">
