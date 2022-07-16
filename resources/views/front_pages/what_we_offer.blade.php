@@ -2,7 +2,7 @@
 
 @section('frontpage_content')
 
-    <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text" data-image-src="{{asset('/frontend/style/images/art/bg1.jpg')}}">
+    <div class="wrapper image-wrapper bg-image page-title-wrapper inverse-text d-md-block d-none d-lg-block" data-image-src="{{asset('/frontend/style/images/art/bg1.jpg')}}">
         <div class="container inner pt-200 pb-200 text-center">
         {{--  <h1 class="section-title text-uppercase">Hello! We Are GIC Education</h1>  --}}
         <h2 class="display-1 mb-0">What We Offer</h2>
