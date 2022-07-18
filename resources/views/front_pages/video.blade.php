@@ -16,60 +16,60 @@
     <div class="wrapper light-wrapper">
         <div class="container-fluid inner">
             <div class="grid grid-view boxed">
-               
+
                 <div class="clearfix"></div>
                 <div class="tiles text-center light-gallery-wrapper">
                     <div class="row isotope">
-                       
+
                             <div class="item grid-sizer col-md-6 col-lg-4 ">
                                 <div class="box bg-white shadow p-30">
-                                   
-                                      <a href="https://www.facebook.com/watch/?v=505398157772647" class=""> <img src="{{asset('/frontend/style/images/photo/2.jpg')}}" style="height: 200px;object-fit: contain;" alt="" /></a>
-                                  
+
+                                      <a href="https://www.facebook.com/watch/?v=505398157772647" class=""> <img src="{{asset('/frontend/style/images/photo/2.jpg')}}" class="img-fluid mx-auto d-block" style="height: 200px;object-fit: contain;" alt="" /></a>
+
                                 </div>
                             </div>
 
                             <div class="item grid-sizer col-md-6 col-lg-4 ">
                                 <div class="box bg-white shadow p-30">
-                                    <a href="https://www.facebook.com/gicedultd/videos/938380396819745" class=""> <img src="{{asset('/frontend/style/images/photo/arif.png')}}" style="height: 200px;object-fit: contain;" alt="" /></a>
-                                   
-                                  
+                                    <a href="https://www.facebook.com/gicedultd/videos/938380396819745" class=""> <img src="{{asset('/frontend/style/images/photo/arif.png')}}" class="img-fluid mx-auto d-block" style="height: 200px;object-fit: contain;" alt="" /></a>
+
+
                                 </div>
                             </div>
 
 
                             <div class="item grid-sizer col-md-6 col-lg-4 ">
                                 <div class="box bg-white shadow p-30">
-                                    <a href="https://www.facebook.com/gicedultd/videos/284361203621961" class=""> <img src="{{asset('/frontend/style/images/photo/8.jpg')}}" style="height: 200px;object-fit: contain;" alt="" /></a>
-                                   
-                                  
+                                    <a href="https://www.facebook.com/gicedultd/videos/284361203621961" class=""> <img src="{{asset('/frontend/style/images/photo/8.jpg')}}" class="img-fluid mx-auto d-block" style="height: 200px;object-fit: contain;" alt="" /></a>
+
+
                                 </div>
                             </div>
 
                             <div class="item grid-sizer col-md-6 col-lg-4 ">
                                 <div class="box bg-white shadow p-30">
-                                    <a href="https://www.facebook.com/gicedultd/videos/356226279731984" class=""> <img src="{{asset('/frontend/style/images/photo/SHEIKH MURSALIN SHOMUDRO.jpg')}}" style="height: 200px;object-fit: contain;" alt="" /></a>
-                                   
-                                  
+                                    <a href="https://www.facebook.com/gicedultd/videos/356226279731984" class=""> <img src="{{asset('/frontend/style/images/photo/SHEIKH MURSALIN SHOMUDRO.jpg')}}" class="img-fluid mx-auto d-block" style="height: 200px;object-fit: contain;" alt="" /></a>
+
+
                                 </div>
                             </div>
 
                             <div class="item grid-sizer col-md-6 col-lg-4 ">
                                 <div class="box bg-white shadow p-30">
-                                    <a href="https://www.facebook.com/gicedultd/videos/" class=""> <img src="{{asset('/frontend/style/images/photo/Sanjeda Sultana Thumbnail.jpg')}}" style="height: 200px;object-fit: contain;" alt="" /></a>
-                                   
-                                  
+                                    <a href="https://www.facebook.com/gicedultd/videos/" class=""> <img src="{{asset('/frontend/style/images/photo/Sanjeda Sultana Thumbnail.jpg')}}" class="img-fluid mx-auto d-block" style="height: 200px;object-fit: contain;" alt="" /></a>
+
+
                                 </div>
                             </div>
 
 
-                           
-                       
+
+
                     </div>
                 </div>
             </div>
 
-           
+
 
         </div>
     </div>
